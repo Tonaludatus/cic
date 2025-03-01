@@ -2,16 +2,57 @@
   <head>
     <title>Complementary Ideas Consulting Inc.</title>
     <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
       .title_logo {
         text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin: 20px 0;
+      }
+      .title_logo h1 {
+        font-size: 2.5em;
+        color: #2c3e50;
+        margin: 10px 0;
+      }
+      .title_logo img {
+        width: 150px;
+        height: auto;
+        margin-top: 10px;
       }
       .regular_text {
-        font-weight:bold;
+        font-weight: bold;
+        font-size: 1.2em;
+        margin: 20px auto;
+        width: 80%;
+        max-width: 600px;
+        text-align: center;
+      }
+      .services {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+      .services li {
+        background: #e2e2e2;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+      }
+      .contacts {
+        font-size: 1em;
+        text-align: center;
+        margin: 20px 0;
+        padding: 20px;
+        background: #2c3e50;
+        color: white;
       }
     </style>
   </head>
@@ -22,7 +63,7 @@
     </div>
     <div class="regular_text">
       Our services:<br/>
-      <ul>
+      <ul class="services">
         <li>Software development consulting</li>
         <li>Software project management</li>
       </ul>
